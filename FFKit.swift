@@ -64,7 +64,7 @@ class FFKit {
         	try text.write(to: URL(fileURLWithPath:file), atomically: append, encoding: String.Encoding.utf8)
     	}
 
-    	static func printURL(_ url: URL) {
+    	static func print(url: URL) {
 		print("<URL>\(url.absoluteString)</URL>")
     	}
 
